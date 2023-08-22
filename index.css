@@ -85,13 +85,18 @@ h3 {
   padding: 0 8px;
 }
 
+.new-game-container {
+    height: 35px;
+  position: relative;
+}
+
 #new-game {
   background-color: rgb(211, 211, 211);
   border: 1px solid grey;
   font-family: "Oswald", sans-serif;
   font-weight: normal;
   color: black;
-  padding: 10px 24px;
+  padding: 5px 12px;
   cursor: pointer;
   float: left;
 }
