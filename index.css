@@ -1,0 +1,68 @@
+.board-container {
+ height: 200px;
+  position: relative;
+}
+
+.scores-container {
+ height: 200px;
+  position: relative;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.btn-group button {
+  background-color: rgb(211, 211, 211);
+  border: 1px solid grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  color: black;
+  padding: 10px 24px;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  float: left;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none;
+}
+
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* .btn-group button:hover {
+  background-color: red;
+} */
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-weight: 300;
+  color: #666;
+  text-align: center;
+}
+
+h1 span {
+  font-weight: 700;
+}
+
+span.nought {
+  color: #0083d3;
+  background: #a4dbf7;
+  padding: 0 8px;
+}
+
+span.cross {
+  color: #ce6200;
+  background: #f9a058;
+  padding: 0 8px;
+}
