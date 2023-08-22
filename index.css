@@ -25,6 +25,9 @@
 .btn-group button {
   background-color: rgb(211, 211, 211);
   border: 1px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   color: black;

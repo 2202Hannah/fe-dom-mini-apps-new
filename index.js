@@ -14,7 +14,7 @@ const winningCombinations = [
   ["", "", "X", "", "X", "", "X"],
 ];
 
-const noughtScore = document.getElementById("noughts_scores");
+const noughtScore = document.getElementsByClassName("noughts_scores");
 
 const crossesScore = document.getElementById("crosses_scores");
 
