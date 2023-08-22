@@ -1,10 +1,15 @@
 .board-container {
- height: 200px;
+  height: 200px;
+  position: relative;
+}
+
+.button-container {
+    height: 75px;
   position: relative;
 }
 
 .scores-container {
- height: 200px;
+  height: 200px;
   position: relative;
 }
 
@@ -66,3 +71,28 @@ span.cross {
   background: #f9a058;
   padding: 0 8px;
 }
+
+h3 {
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
+  color: #666;
+  text-align: center;
+}
+
+#noughts_scores {
+    color: #0083d3;
+  background: #a4dbf7;
+  padding: 0 8px;
+}
+
+#new-game {
+  background-color: rgb(211, 211, 211);
+  border: 1px solid grey;
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  color: black;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: left;
+}
+
